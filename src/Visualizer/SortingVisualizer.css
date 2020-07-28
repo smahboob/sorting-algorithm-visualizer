@@ -1,0 +1,131 @@
+
+.TotalContainer{
+    margin-bottom: 0px;
+}
+
+.mainContainer{
+    display: flex;
+    margin-top: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: maroon;
+    margin-top: 0;
+    color:white;
+    text-align: center;
+    margin-bottom: 1px;
+    height: 35px;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+.arrayContainer{
+    background-color: rgb(4, 67, 94);
+    width: 75%;
+    margin-left: 2px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.bar{
+    width: 3px;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.btnContainer{
+    background-color: rgb(199, 149, 13);
+    height: 680px;
+    width: 25%;
+    margin-right: 2px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.tableDetails{
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td{
+    padding: 10px;
+}
+
+.btn{
+    width: 90%;
+    height: 25px;
+    display: block;
+    border-radius: 6px;
+    margin: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:focus {outline:0;}
+
+.btn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+p{
+    font-size: small;
+}
+
+.btnh2{
+    border: 1.5px solid black;
+    width: 90%;
+    padding: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+.complexity{
+    border: 1.5px solid black;
+    width: 90%;
+    padding: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 631px) {
+    .btn{
+        font-size: x-small;
+    }
+
+    .btnh2{
+        font-size: medium;
+    }
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 1200px) {
+    .bar{
+        width: 2.9px;
+    }
+}
+
+@media only screen and (min-width: 505px) and (max-width: 910px) {
+    .bar{
+        width: 2.6px;
+    }
+}
