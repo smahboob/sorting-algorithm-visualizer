@@ -31,7 +31,6 @@ export default class SortingVisualizer extends React.Component {
     }
 
     bubbleSort = () => {
-        console.log("called bubble sort")
         removeButton();
         const animations = getBuubleSortAnimations(this.state.array);
         performAnimation(animations).then(document.querySelector('#clear').disabled = false)
@@ -39,14 +38,12 @@ export default class SortingVisualizer extends React.Component {
     }
 
     selectionSort = () => {
-        console.log("called selection sort")
         removeButton();
         const animations = getSelectionSortAnimations(this.state.array);
         performAnimation(animations).then(document.querySelector('#clear').disabled = false)
     }
 
     insertionSort = () => {
-        console.log("called insertion sort")
         removeButton();
         const animations = getInsertionSortAnimations(this.state.array);
         performAnimation(animations).then(document.querySelector('#clear').disabled = false)
@@ -97,35 +94,36 @@ export default class SortingVisualizer extends React.Component {
                     <button id = "merge" className = "btn" onClick = {this.mergeSort}  >Merge Sort</button>
                     <button id = "clear" className = "btn" onClick = {this.clear}  >Clear</button>
                     <p>
-                    <h2 className = "complexity"> Time Complexity</h2>
-
-                    <table className = "tableDetails">
-                        <tr>
-                            <th>Algorithm</th>
-                            <th>Best Case</th>
-                            <th>Worst Case</th>
-                        </tr>
-                        <tr>
-                            <td>Bubble Sort</td>
-                            <td>O(n^2)</td>
-                            <td>O(n^2)</td>
-                        </tr>
-                        <tr>
-                            <td>Selection Sort</td>
-                            <td>O(n^2)</td>
-                            <td>O(n^2)</td>
-                        </tr>
-                        <tr>
-                            <td>Insertion Sort</td>
-                            <td>O(n^2)</td>
-                            <td>O(n^2)</td>
-                        </tr>
-                        <tr>
-                            <td>Merge Sort</td>
-                            <td>O(n log(n))</td>
-                            <td>O(n log(n))</td>
-                        </tr>
-                    </table>
+                        
+                        <h2 className = "complexity"> Time Complexity</h2>
+                        <table className = "tableDetails">
+                            <tr>
+                                <th>Algorithm</th>
+                                <th>Best Case</th>
+                                <th>Worst Case</th>
+                            </tr>
+                            <tr>
+                                <td>Bubble Sort</td>
+                                <td>O(n^2)</td>
+                                <td>O(n^2)</td>
+                            </tr>
+                            <tr>
+                                <td>Selection Sort</td>
+                                <td>O(n^2)</td>
+                                <td>O(n^2)</td>
+                            </tr>
+                            <tr>
+                                <td>Insertion Sort</td>
+                                <td>O(n^2)</td>
+                                <td>O(n^2)</td>
+                            </tr>
+                            <tr>
+                                <td>Merge Sort</td>
+                                <td>O(n log(n))</td>
+                                <td>O(n log(n))</td>
+                            </tr>
+                        </table>
+                        
                     </p>
                 </div>
             </div>
