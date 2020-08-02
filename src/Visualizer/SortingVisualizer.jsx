@@ -17,12 +17,13 @@ export default class SortingVisualizer extends React.Component {
             array:[],
         }
     }
-
+    //reload the page
     componentDidMount(){
         this.generateNewArray();
         window.addEventListener("resize", this.generateNewArray.bind(this));
     }
-
+    
+    //create a new array of random numbers
     generateNewArray = () => {
         let arr = generator();
         this.setState({
@@ -30,6 +31,7 @@ export default class SortingVisualizer extends React.Component {
         })
     }
 
+    //bubbleSort button implementation
     bubbleSort = () => {
         removeButton();
         const animations = getBuubleSortAnimations(this.state.array);
@@ -37,12 +39,14 @@ export default class SortingVisualizer extends React.Component {
         
     }
 
+    //selectionSort button implementation
     selectionSort = () => {
         removeButton();
         const animations = getSelectionSortAnimations(this.state.array);
         performAnimation(animations).then(document.querySelector('#clear').disabled = false)
     }
 
+    //insertionSort button implementation
     insertionSort = () => {
         removeButton();
         const animations = getInsertionSortAnimations(this.state.array);
@@ -50,13 +54,15 @@ export default class SortingVisualizer extends React.Component {
 
     }
 
+    //mergeSort button implementation
     mergeSort = () => {
         removeButton();
         const animations = getMergeSortAnimations(this.state.array);
         performAnimation(animations).then(document.querySelector('#clear').disabled = false)
 
     }
-
+    
+    //reload screen on clear button
     clear = () => {
         window.location.reload(false); 
         return false;
