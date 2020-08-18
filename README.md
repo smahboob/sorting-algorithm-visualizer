@@ -13,9 +13,9 @@ The following Sorting Algorithms are complete:
 
 Features:
 
-* [ ] Animation of the sorting algorithms
-* [ ] Time Complexity (Big O Notation) table for each algorithm
-* [ ] Generate new random arrays
+* [ ] Animation of the sorting algorithms.
+* [ ] Time Complexity (Big O Notation) table for each algorithm implemented.
+* [ ] Generate new random arrays.
 
 ## Video Walkthrough 
 
