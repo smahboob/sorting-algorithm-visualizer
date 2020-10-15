@@ -6,16 +6,16 @@ Created by: **Saad Mahboob**
 
 The following Sorting Algorithms are complete:
 
-* [ ] Bubble Sort
-* [ ] Selection Sort
-* [ ] Insertion Sort
-* [ ] Merge Sort
+* [x] Bubble Sort
+* [x] Selection Sort
+* [x] Insertion Sort
+* [x] Merge Sort
 
 Features:
 
-* [ ] Animation of the sorting algorithms.
-* [ ] Time Complexity (Big O Notation) table for each algorithm implemented.
-* [ ] Generate new random arrays.
+* [x] Animation of the sorting algorithms.
+* [x] Time Complexity (Big O Notation) table for each algorithm implemented.
+* [x] Generate new random arrays.
 
 ## Video Walkthrough 
 
