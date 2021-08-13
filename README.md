@@ -5,14 +5,12 @@ Created by: **Saad Mahboob**
 ## User Stories
 
 The following Sorting Algorithms are complete:
-
 * [x] Bubble Sort
 * [x] Selection Sort
 * [x] Insertion Sort
 * [x] Merge Sort
 
 Features:
-
 * [x] Animation of the sorting algorithms.
 * [x] Time Complexity (Big O Notation) table for each algorithm implemented.
 * [x] Generate new random arrays.

@@ -11,6 +11,7 @@ const PRIMARY_COLOR = 'yellow';
 
 export default class SortingVisualizer extends React.Component {
 
+    //constructor
     constructor(props){
         super(props);
         this.state ={
