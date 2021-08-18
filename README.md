@@ -1,7 +1,7 @@
 # Sorting Algorithm Visualizer
 
 Created by: **Saad Mahboob**
-
+Try it out: https://smahboob.github.io/sorting-algorithm-visualizer/
 ## User Stories
 
 The following Sorting Algorithms are complete:
